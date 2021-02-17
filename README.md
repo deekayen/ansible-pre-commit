@@ -66,3 +66,5 @@ Note in your local git history that the commit did not save any changes and that
 ```
 
 Add the `name` line to the `ping` task and try the commit again. The second run should go much faster, since `ansible-lint` is now already locally installed and the commit should be successful.
+
+The `pre-commit` utility will work with GUI git utilities and editors, too. You'll only need to run the `pre-commit install` once and then all your other `git` interactions with the folder will automatically include whatever linters you configure in `.pre-commit-config.yaml`.
