@@ -6,4 +6,4 @@ repos:
     hooks:
       - id: ansible-lint
         files: \.(yaml|yml)$
-        args: [--exclude=/Users/deekayen/.ansible, .]
+        args: [--exclude=/Users/deekayen/.ansible, playbook.yml]
